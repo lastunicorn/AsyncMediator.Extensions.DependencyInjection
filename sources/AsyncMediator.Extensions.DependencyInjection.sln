@@ -5,6 +5,15 @@ VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMediator.Extensions.DependencyInjection", "AsyncMediator.Extensions.DependencyInjection\AsyncMediator.Extensions.DependencyInjection.csproj", "{09C1B990-7830-45B1-B275-113D14395AA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncMediator.Extensions.DependencyInjection.Demo", "AsyncMediator.Extensions.DependencyInjection.Demo\AsyncMediator.Extensions.DependencyInjection.Demo.csproj", "{47FAE1F9-2323-4D44-8161-2B36E4DDFF70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{26EB9908-B61F-462F-A64F-C8B9BAD74786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +24,16 @@ Global
 		{09C1B990-7830-45B1-B275-113D14395AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09C1B990-7830-45B1-B275-113D14395AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09C1B990-7830-45B1-B275-113D14395AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FAE1F9-2323-4D44-8161-2B36E4DDFF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FAE1F9-2323-4D44-8161-2B36E4DDFF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FAE1F9-2323-4D44-8161-2B36E4DDFF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FAE1F9-2323-4D44-8161-2B36E4DDFF70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47FAE1F9-2323-4D44-8161-2B36E4DDFF70} = {26EB9908-B61F-462F-A64F-C8B9BAD74786}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B904D2A-6A95-4A68-96E5-7E6A8EC442D8}

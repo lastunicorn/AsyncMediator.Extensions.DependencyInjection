@@ -29,3 +29,7 @@ builder.Services.AddAsyncMediator(useCaseAssembly);
 This code will register all the event handlers, command handlers, queries and lookup queries found in the specified assembly.
 
 Multiple assemblies may be provided.
+
+### Note
+
+For a full example see the project `AsyncMediator.Extensions.DependencyInjection.Demo` from this repository.
